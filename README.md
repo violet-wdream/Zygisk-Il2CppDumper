@@ -18,4 +18,5 @@ Il2CppDumper with Zygisk, dump il2cpp data at runtime, can bypass protection, en
       2. Edit `game.h`, modify `GamePackageName` to the game package name
       3. Use Android Studio to run the gradle task `:module:assembleRelease` to compile, the zip package will be generated in the `out` folder
 3. Install module in Magisk
-4. Start the game, `dump.cs` will be generated in the `/data/data/GamePackageName/files/` directory
+4. Restart the device
+5. Start the game, `dump.cs` will be generated in the `/data/data/GamePackageName/files/` directory
